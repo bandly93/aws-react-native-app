@@ -1,0 +1,19 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "awsreactnativeapplic-test-20190816165014-authRole",
+            "UnauthRoleArn": "arn:aws:iam::511187252304:role/awsreactnativeapplic-test-20190816165014-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::511187252304:role/awsreactnativeapplic-test-20190816165014-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "awsreactnativeapplic-test-20190816165014-deployment",
+            "UnauthRoleName": "awsreactnativeapplic-test-20190816165014-unauthRole",
+            "StackName": "awsreactnativeapplic-test-20190816165014",
+            "StackId": "arn:aws:cloudformation:us-west-2:511187252304:stack/awsreactnativeapplic-test-20190816165014/98667870-c080-11e9-a25c-065470581d12"
+        },
+        "categories": {
+            "auth": {
+                "awsreactnativeapplicd71ac111": {}
+            }
+        }
+    }
+}
