@@ -1,0 +1,20 @@
+{
+    "appName": "awsreactnativeapplic",
+    "roleName": "pinpointLambdaRole3dbb90fa",
+    "cloudWatchPolicyName": "cloudWatchPolicy3dbb90fa",
+    "pinpointPolicyName": "pinpointPolicy3dbb90fa",
+    "authPolicyName": "pinpoint_amplify_3dbb90fa",
+    "unauthPolicyName": "pinpoint_amplify_3dbb90fa",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

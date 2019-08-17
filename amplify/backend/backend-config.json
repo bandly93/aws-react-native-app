@@ -5,5 +5,17 @@
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
+	},
+	"analytics": {
+		"awsreactnativeapplic": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"s38e42d47b": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }
